@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Raju's Restaurant</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Raju's Restaurant</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home/Reserve</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#"> Menu </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
+        </li>
+       
+    </div>
+  </div>
+</nav>
+
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="samosa.jpeg" class="d-block w-100" alt="..." style="height: 500px;">
+    </div>
+    <div class="carousel-item">
+      <img src="curry.jpeg" class="d-block w-100" style="height: 500px;"
+      alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="thali.jpeg" class="d-block w-100" style="height: 500px;" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<section id="welcome message" class="container">
+  <br>
+  <h1 class="text-center"> Welcome! </h1>
+  <h3 class="text-center">We hope you're hungry! At Raju's, our goal is to always  satisfy your hunger. Join us at our restaurant and we hope you find something you like. We can't wait to cater to you!</h3>
+</section>
+<section>
+    <hr>
+      <h2 class="text-center"> Reserve a table! </h2>
+      <img src="Tables_Layout.png" class="center">
+      <br>
+      <form style="margin: auto; width: 1000px;">
+      <label for="name">Full name:</label>
+        <input type="text" name="user_name"><br><br>
+        <label for="Pnumber">Phone number:</label>
+        <input type="tel" name="user_number"><br><br>
+        <label for="date">Select the date of reservation:</label>
+        <input type="date" name="res_date"><br><br>
+        <label for="Time">Choose the time of reservation:</label>
+        <select name="Time" id="Time">
+        <option value="Breakfast">Breakfast</option>
+        <option value="Lunch">Lunch</option>
+        <option value="Dinner">Dinner</option>
+        </select>
+        <br><br>
+        <label for="table_number">Choose the table number you'd like to reserve</label>
+        <select name="table_number" id="table_number">
+        <option value="table_1">Table 1</option>
+        <option value="table_2">Table 2</option>
+        <option value="table 3">Table 3</option>
+        <option value="table 4">Table 4</option>
+        <option value="table 5">Table 5</option>
+        <option value="table 6">Table 6</option>
+        </select> 
+        <br> <br>
+        <input type="submit" name="Confirm"><br><br>
+    </form>
+    
+  </section>
+
+<footer>
+  <p> Contact us at +91 000 000 0000 or raju@restaurant.com <br>
+      Copyright &copy; Raju's Restaurant 2022. All Rights Reserved. </p>
+</footer>
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
